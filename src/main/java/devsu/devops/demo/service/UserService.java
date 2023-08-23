@@ -6,7 +6,7 @@ import devsu.devops.demo.service.dto.UserDto;
 
 public interface UserService {
 
-	public List<UserDto> findAll();
-	public UserDto findById(Long id);
-	public UserDto save(UserDto userDto);
+	List<UserDto> findAll();
+	UserDto findById(Long id);
+	UserDto save(UserDto userDto);
 }

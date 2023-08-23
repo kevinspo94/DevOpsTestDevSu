@@ -42,7 +42,7 @@ public class UserServiceImpl implements UserService {
 	@Override
 	public UserDto save(UserDto userDto) {
 		if (userRepository.existsByDni(userDto.getDni())) {
-			throw(new BadRequestException("User already exists"));
+			throw new BadRequestException("User already exists");
 		}
 		User user = userRepository.save(userMapper.toEntity(userDto));
 		return userMapper.toDto(user);
