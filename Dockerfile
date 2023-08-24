@@ -1,4 +1,6 @@
 FROM eclipse-temurin:17
+ARG dbuser
+ARG dbpass
 ENV USERNAME_DB=$dbuser
 ENV PASSWORD_DB=$dbpass
 RUN echo $dbuser
