@@ -1,0 +1,48 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: demo-devops-java
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: demo-devops-java
+  template:
+    metadata:
+      labels:
+        app: demo-devops-java
+    spec:
+      containers:
+        - name: demo-devops-java
+          image: kevinspo94/demo-dev-ops
+          env:
+            - name: NAME_DB
+              value: "jdbc:h2:file:/h2-data/test;AUTO_SERVER=TRUE"
+            - name: DB_TYPE
+              value: "update"
+            - name: DB_INIT
+              value: "never"
+            - name: DB_VALIDATION
+              value: "true"
+          ports:
+            - containerPort: 8000
+          resources:
+            requests:
+              memory: "128Mi"
+              cpu: "100m"
+            limits:
+              memory: "256Mi"
+              cpu: "500m"
+          volumeMounts:
+            - name: logs-volume
+              mountPath: /logs
+            - name: h2-db-volume
+              mountPath: /h2-data
+
+      volumes:
+        - name: logs-volume
+          persistentVolumeClaim:
+            claimName: logs-pvc
+        - name: h2-db-volume
+          persistentVolumeClaim:
+           claimName: h2-db-pvc
