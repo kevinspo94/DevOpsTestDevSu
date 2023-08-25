@@ -4,19 +4,7 @@ Este repositorio contiene una aplicación de demostración simple escrita en [Ja
 
 ## Aplicación
 
-La aplicación en este repositorio es una aplicación basada en [Java] que .
-
-## Empezando
-
-Sigue estas instrucciones para configurar y ejecutar la aplicación localmente.
-
-
-### Ejecutar la Aplicación
-
- Accede a la aplicación en tu navegador en `http://localhost:8080`.
-
-### Ejecutar Pruebas
-
+La aplicación en este repositorio es una aplicación basada en [Java] que y springboot que permite manejar usuarios.
 
 
 ## Pipeline CI/CD Aplicacion
