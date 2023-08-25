@@ -1,4 +1,4 @@
-FROM eclipse-temurin:17
+FROM eclipse-temurin:17.0.8_7-jdk-alpine
 ARG dbuser
 ARG dbpass
 ARG port=8000

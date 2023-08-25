@@ -41,3 +41,4 @@ bin/
 build/
 /bin1/
 java/build/**
+/test.trace.db
