@@ -4,7 +4,7 @@ Este repositorio contiene una aplicación de demostración simple escrita en [Ja
 
 ## Aplicación
 
-La aplicación en este repositorio es una aplicación basada en [Java] que [proporciona una breve descripción de lo que hace la aplicación].
+La aplicación en este repositorio es una aplicación basada en [Java] que .
 
 ## Empezando
 
@@ -88,16 +88,25 @@ La aplicación se despliega en dos clústers de Kubernetes; uno local y otro en 
 
 
 
-## Acceso
+## Reaultados de despliegues
 
-La aplicación se despliega en [inserta aquí la URL de despliegue]. Puedes acceder a la aplicación visitando esta URL en tu navegador.
+La aplicación se desplego localmente y con AWS account free tier por lo que aqui se puede ver los resultados mediante capturas:
 
-## Contribuciones
+[Despliegue en Kubernetes con Docker Desktop]
 
-[Proporciona pautas para contribuir al repositorio si es aplicable.]
+
+![Captura de pantalla de 2023-08-25 06-26-34](https://github.com/kevinspo94/demo-devops-java/assets/86612020/3b344cd0-0ed8-4ec9-a6a3-add535ced19c)
+
+
+
+[Despliegue en Kubernetes con EKS]
+
+![aws](https://github.com/kevinspo94/demo-devops-java/assets/86612020/b12e43a0-3ae5-4fce-92e7-e73494292457)
+
+
 
 ## Licencia
 
-Este proyecto está bajo la Licencia [inserta el nombre de la licencia] - consulta el archivo [LICENSE](LICENSE) para más detalles.
+Este proyecto está bajo la Licencia [Devsu] - consulta en el prtal web (https://devsu.com/) para más detalles.
 
 
