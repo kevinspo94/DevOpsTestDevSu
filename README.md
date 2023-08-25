@@ -49,8 +49,6 @@ La aplicación se despliega en dos clústers de Kubernetes; uno local y otro en 
 
 ## Diagramas
 
-[Inserta diagramas relevantes, como el diagrama del pipeline CI/CD, la arquitectura de despliegue en Kubernetes, etc.]
-
 [ Arquitectura de despliegue en Kubernetes con Docker Desktop]
 
 ![image](https://github.com/kevinspo94/demo-devops-java/assets/86612020/a48cda3f-8466-4969-a93a-1f7a787c2ba9)
@@ -74,11 +72,13 @@ La aplicación se despliega en dos clústers de Kubernetes; uno local y otro en 
 ![image](https://github.com/kevinspo94/demo-devops-java/assets/86612020/d32effd9-d79c-4f72-9609-0a43661e6ec5)
 
 
+## Acceso URL AWS
 
+http://aea739403cee74ba4b273e60a7b4fc9a-1443328846.us-west-2.elb.amazonaws.com/api/users
 
 ## Reaultados de despliegues
 
-La aplicación se desplego localmente y con AWS account free tier por lo que aqui se puede ver los resultados mediante capturas:
+La aplicación se desplego localmente y con AWS se puede ver los resultados mediante capturas:
 
 [Despliegue en Kubernetes con Docker Desktop]
 
@@ -88,6 +88,8 @@ La aplicación se desplego localmente y con AWS account free tier por lo que aqu
 
 
 [Despliegue en Kubernetes con EKS]
+
+
 
 ![aws](https://github.com/kevinspo94/demo-devops-java/assets/86612020/b12e43a0-3ae5-4fce-92e7-e73494292457)
 
