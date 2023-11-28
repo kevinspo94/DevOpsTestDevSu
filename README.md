@@ -97,6 +97,6 @@ La aplicación se desplego localmente y con AWS se puede ver los resultados medi
 
 ## Licencia
 
-Este proyecto está bajo la Licencia [Devsu] - consulta en el prtal web (https://devsu.com/) para más detalles.
+Este proyecto está bajo Licencia
 
 
