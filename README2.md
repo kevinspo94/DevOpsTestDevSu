@@ -11,17 +11,17 @@ Because Istio is not deployed into the default `istio-system` namespace, all `is
 
 To verify the Istio version installed in the `aks-istio-system` namespace, use the following command:
 
+
 ```bash
-
 istioctl -i aks-istio-system version
-
-
+```
 
 ## Labeling resources in AKS with Istio
 
-If you want to label the YAML files, you can label the default namespace (`default`) with a specific Istio revision. For example, to label with Istio revision "asm-1-17," use the following command:
+If you want to label the resources from a namespace, you can label the default namespace (`default`) with a specific Istio revision. For example, to label with Istio revision "asm-1-17," use the following command:
 
 
 ```bash
 kubectl label namespace default istio.io/rev=asm-1-17
+```
 
